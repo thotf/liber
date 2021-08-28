@@ -4,7 +4,7 @@
 ![image](https://user-images.githubusercontent.com/48403565/131203212-84726d8a-02cc-4422-8675-798fc5fa39c2.png)
 
 使用一遍式扫描。
-没有为每一阶段单独生成语法树，每次进行语法分析时调用词法分析，同时进行语法分析。
+没有为每一阶段单独生成语法树，每次进行语法分析时调用词法分析，同时进行语义分析。
 
 定义有 string、int、float、true、false、fun、list  几种数据类型，多种类型之间可相互转换
 list的简易的lua 表的实现。
